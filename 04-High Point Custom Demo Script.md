@@ -263,7 +263,7 @@ Move from showing the prototype to learning about High Point's real workflow.
 
 # Key Screens
 
-## Screen 1 — Leads
+## Screen 1: Leads
 
 Purpose:
 
@@ -278,7 +278,7 @@ Only emphasize:
 
 ---
 
-## Screen 2 — Conversation
+## Screen 2: Conversation
 
 Purpose:
 
@@ -294,7 +294,7 @@ Only emphasize:
 
 ---
 
-## Screen 3 — Human Handoff
+## Screen 3: Human Handoff
 
 Purpose:
 
