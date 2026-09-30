@@ -19,19 +19,33 @@ STEA should support human judgment, not replace it.
 
 ## Current High Point Sprint Status
 
-**STEA/Hermes availability:** Not operational for active use at the time of this work.
+**STEA/Hermes availability:** Available and tested during Sprint 0006. 
 
-I currently have access to a Hermes bot through Telegram, but the supporting service/server is not running.
+The Hermes Sophiya bot was available through Telegram and was used directly on the High Point Realty & Auction / Ken DeGrant account.
 
-Because the service was unavailable, I did not use STEA/Hermes directly for the High Point Realty research, demo preparation, discovery guide, or value proposition.
+A capability check was first performed to determine whether the current Hermes session could use DeepAPI and terminal/code-execution tools.
 
-The High Point artifacts were completed through the normal manual research and documentation workflow.
+Results:
+
+- DeepAPI web search: Unable to verify
+
+- DeepAPI website scraping: Unable to verify
+
+- DeepAPI deep research: Unable to verify
+
+- Terminal/code execution: Not available
+
+The skill list was reloaded and the capability check was repeated, but the result remained unchanged.
+
+Because live research tooling could not be verified, Hermes was not used to generate new source-backed facts about High Point.
+
+Instead, it was used as a text-based account-context and discovery-support assistant using the existing High Point research artifacts.
 
 ---
 
 # Prior Hermes / DeepAPI Experience
 
-Although STEA/Hermes was unavailable for the High Point account, I have previously used the Hermes Telegram bot for AgentifyMe sales and research workflows.
+I have previously used the Hermes Telegram bot for AgentifyMe sales and research workflows.
 
 This earlier work provides practical evidence for how the agent could support the High Point account once available.
 
@@ -402,37 +416,243 @@ Did it:
 
 # Actual Use on High Point Account
 
-**Status:** Not yet executed.
+## Date Used
 
-**Reason:** Hermes/STEA was unavailable because the supporting server was not running.
+30 September 2026
 
-If the service becomes available during the sprint, this section should be updated with:
+## Tool
 
-- date used;
-- task performed;
-- prompt/input;
-- tool used;
-- output generated;
-- what was useful;
-- what required correction;
-- whether the workflow should be reused.
+Hermes Sophiya Bot via Telegram
+
+## Account
+
+High Point Realty & Auction / Ken DeGrant
 
 ---
 
-# Current Assessment
+## Test 1: Tool Availability
 
-Prior Hermes + DeepAPI testing demonstrates that the agent can assist with:
+The first test checked whether the current Hermes session could access:
 
-- ICP research;
-- public company research;
-- website scraping;
-- deep research;
-- account qualification;
-- evidence organization;
-- structured sales outputs.
+- DeepAPI web search;
 
-The earlier experience also showed that human verification remains necessary and that tool availability, verification gaps, and prompt quality materially affect the result.
+- DeepAPI website scraping;
 
-For the High Point Realty account specifically, STEA usefulness has **not yet been validated** because the service was unavailable during the work completed so far.
+- DeepAPI deep research;
 
-The workflow above therefore represents a practical test plan based on prior hands-on Hermes experience rather than a claim that STEA was used on the High Point account.
+- terminal/code execution.
+
+The DeepAPI capabilities could not be verified and terminal/code execution was unavailable.
+
+After reloading Hermes skills, the capability check was repeated with the same result.
+
+### Result
+
+The current session was not suitable for new DeepAPI-assisted High Point research.
+
+The workflow was therefore adapted to use Hermes only with already prepared account information.
+
+---
+
+## Test 2: Account Context Organization
+
+The existing High Point account research was supplied to Hermes.
+
+Hermes was instructed to organize the information into:
+
+1. Confirmed Facts
+
+2. Assumptions
+
+3. Open Questions
+
+4. Current Speed-to-Lead Hypotheses
+
+5. Demo Assumptions
+
+6. Recommended Next Actions
+
+Additional rules required Hermes to:
+
+- work only from supplied information;
+
+- avoid browsing;
+
+- avoid adding unsupported facts;
+
+- avoid converting assumptions into facts;
+
+- mark uncertain information appropriately.
+
+### Useful Output
+
+Hermes successfully separated account information into the requested categories.
+
+It preserved important unknowns such as:
+
+- actual lead-source mix;
+
+- first-response ownership;
+
+- response speed;
+
+- whether leads are being missed;
+
+- CRM usage;
+
+- after-hours workflow;
+
+- whether auction and standard real-estate inquiries follow the same process;
+
+- Ken's comfort with AI communication.
+
+It also organized the main Speed-to-Lead hypotheses and recommended that the demo be built around a validated workflow rather than assuming High Point has a response-time problem.
+
+### Limitation
+
+The "Confirmed Facts" in this exercise were confirmed only within the supplied Account Brief.
+
+Hermes did not independently verify those facts against live external sources during this session.
+
+---
+
+## Test 3: Discovery Question Review
+
+The Ken DeGrant Discovery Question Guide was then supplied to Hermes.
+
+Hermes was asked to return only:
+
+1. questions already answered by research;
+
+2. questions still requiring Ken's direct input;
+
+3. duplicated or low-value questions;
+
+4. up to five useful follow-up questions.
+
+### Useful Output
+
+Hermes identified several questions as only partially answered by public research, including:
+
+- lead sources;
+
+- buyer vs auction workflow;
+
+- first-response ownership;
+
+- existing systems;
+
+- common auction inquiries.
+
+It correctly kept most operational questions open for direct customer validation.
+
+It also identified overlapping questions, including:
+
+- AI risk / unacceptable AI behavior;
+
+- prototype usefulness / pilot readiness;
+
+- after-hours / nobody available;
+
+- repeated first-response ownership questions.
+
+This was useful because it helped reduce unnecessary repetition in the discovery conversation.
+
+---
+
+## Follow-Up Questions Suggested by Hermes
+
+Hermes suggested the following useful follow-ups:
+
+1. Which of the website, Realtor.com/MLS, HiBid, phone, and email channels actually create the highest-value opportunities?
+
+2. When an inquiry comes from HiBid versus a property listing, does it go to the same person and follow the same process?
+
+3. If Ken is listed as the direct contact, what happens when he is unavailable, with a client, or after-hours?
+
+4. What information would make a lead ready for Ken or another broker to take over?
+
+5. What would make automated first response helpful without creating risk for real-estate or auction-specific questions?
+
+---
+
+# What Was Useful
+
+Hermes was useful for:
+
+- reorganizing account context;
+
+- separating facts from assumptions;
+
+- maintaining open questions;
+
+- structuring Speed-to-Lead hypotheses;
+
+- reviewing discovery preparation;
+
+- identifying duplicated questions;
+
+- producing more focused follow-up questions;
+
+- reducing the amount of manual restructuring required.
+
+---
+
+# What Required Human Review
+
+Human review was still necessary to:
+
+- ensure supplied research remained accurately classified;
+
+- prevent interpretations from becoming customer facts;
+
+- decide which discovery questions were most important;
+
+- keep the final conversation natural and concise;
+
+- verify any external factual claim independently;
+
+- decide which Hermes recommendations should affect the prototype or demo.
+
+---
+
+# Limitations Observed
+
+## External Research Tools
+
+DeepAPI search, website scraping, and deep research could not be verified in the current session.
+
+Terminal/code execution was unavailable.
+
+Therefore, Hermes could not be evaluated for live High Point research during this test.
+
+## No Independent Verification
+
+Because Hermes worked only from supplied material, its structured output should not be interpreted as independent verification of the Account Brief.
+
+## Human Judgment Remains Necessary
+
+Hermes can reorganize information and identify patterns, but customer-specific workflow conclusions still require direct validation from Ken.
+
+---
+
+# Overall Assessment
+
+Hermes/STEA was useful on the High Point account primarily as an:
+
+**Account Context + Discovery Preparation Assistant**
+
+The most useful workflow during this test was:
+
+**Existing Research → Hermes Organization → Human Review → Discovery Guide Review → Focused Follow-Up Questions**
+
+The current test did not validate:
+
+**Hermes → DeepAPI → Live High Point Research**
+
+because the required DeepAPI and terminal capabilities were unavailable or could not be verified.
+
+For future account work, Hermes appears useful for organizing research, maintaining context, preparing discovery, and later summarizing customer conversations, provided human review remains part of the workflow.
+
+---
+
