@@ -43,11 +43,9 @@ Instead, it was used as a text-based account-context and discovery-support assis
 
 ---
 
-# Prior Hermes / DeepAPI Experience
+# Prior Hermes / DeepAPI Experience - Previous Testing Session 
 
-I have previously used the Hermes Telegram bot for AgentifyMe sales and research workflows.
-
-This earlier work provides practical evidence for how the agent could support the High Point account once available.
+The capabilities described in this section were observed during an earlier Hermes/DeepAPI testing session and environment. They are included as prior hands-on experience only and should not be interpreted as evidence that the same capabilities were available during Sprint 0006. During the High Point Realty Sprint 0006 test on 30 September 2026, DeepAPI web search, website scraping, and deep research could not be verified, while terminal/code execution was unavailable. The High Point-specific Hermes test therefore used only the account information supplied directly to the bot.
 
 ---
 
@@ -414,7 +412,7 @@ Did it:
 
 ---
 
-# Actual Use on High Point Account
+# Actual Hermes Use During High Point Sprint 0006
 
 ## Date Used
 

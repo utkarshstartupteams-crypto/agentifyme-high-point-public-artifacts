@@ -42,7 +42,8 @@ AgentifyMe should:
 
 **Representation Status:** Not currently working with another real-estate agent
 
-**Lead Priority:** High
+**Lead Priority:** System-assigned/configurable - criteria TBD
+**Priority is a demo field, not a confirmed High Point rule.** The prototype may display priority because the product requirements include a priority field, but the criteria used to calculate that priority must be configurable and validated with the brokerage.
 
 ---
 
